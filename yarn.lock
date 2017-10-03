@@ -4,17 +4,17 @@
 
 ansi-styles@^3.1.0:
   version "3.2.0"
-  resolved "http://sinopia.aws.lan/ansi-styles/-/ansi-styles-3.2.0.tgz#c159b8d5be0f9e5a6f346dab94f16ce022161b88"
+  resolved "https://registry.npmjs.org/ansi-styles/-/ansi-styles-3.2.0.tgz#c159b8d5be0f9e5a6f346dab94f16ce022161b88"
   dependencies:
     color-convert "^1.9.0"
 
 bluebird@^3.0.6:
   version "3.5.0"
-  resolved "http://sinopia.aws.lan/bluebird/-/bluebird-3.5.0.tgz#791420d7f551eea2897453a8a77653f96606d67c"
+  resolved "https://registry.npmjs.org/bluebird/-/bluebird-3.5.0.tgz#791420d7f551eea2897453a8a77653f96606d67c"
 
 chalk@2.1.0:
   version "2.1.0"
-  resolved "http://sinopia.aws.lan/chalk/-/chalk-2.1.0.tgz#ac5becf14fa21b99c6c92ca7a7d7cfd5b17e743e"
+  resolved "https://registry.npmjs.org/chalk/-/chalk-2.1.0.tgz#ac5becf14fa21b99c6c92ca7a7d7cfd5b17e743e"
   dependencies:
     ansi-styles "^3.1.0"
     escape-string-regexp "^1.0.5"
@@ -22,29 +22,29 @@ chalk@2.1.0:
 
 color-convert@^1.9.0:
   version "1.9.0"
-  resolved "http://sinopia.aws.lan/color-convert/-/color-convert-1.9.0.tgz#1accf97dd739b983bf994d56fec8f95853641b7a"
+  resolved "https://registry.npmjs.org/color-convert/-/color-convert-1.9.0.tgz#1accf97dd739b983bf994d56fec8f95853641b7a"
   dependencies:
     color-name "^1.1.1"
 
 color-name@^1.1.1:
   version "1.1.3"
-  resolved "http://sinopia.aws.lan/color-name/-/color-name-1.1.3.tgz#a7d0558bd89c42f795dd42328f740831ca53bc25"
+  resolved "https://registry.npmjs.org/color-name/-/color-name-1.1.3.tgz#a7d0558bd89c42f795dd42328f740831ca53bc25"
 
 commander@2.11.0, commander@^2.9.0:
   version "2.11.0"
-  resolved "http://sinopia.aws.lan/commander/-/commander-2.11.0.tgz#157152fd1e7a6c8d98a5b715cf376df928004563"
+  resolved "https://registry.npmjs.org/commander/-/commander-2.11.0.tgz#157152fd1e7a6c8d98a5b715cf376df928004563"
 
 deepl-translator@1.1.0:
   version "1.1.0"
-  resolved "http://sinopia.aws.lan/deepl-translator/-/deepl-translator-1.1.0.tgz#23aca326eda0dfe846c39028eacf161159ca5627"
+  resolved "https://registry.npmjs.org/deepl-translator/-/deepl-translator-1.1.0.tgz#23aca326eda0dfe846c39028eacf161159ca5627"
 
 escape-string-regexp@^1.0.5:
   version "1.0.5"
-  resolved "http://sinopia.aws.lan/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
+  resolved "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
 generate-changelog@^1.5.0:
   version "1.5.0"
-  resolved "http://sinopia.aws.lan/generate-changelog/-/generate-changelog-1.5.0.tgz#1ec4f88f58539b174d01e1bf6f993b857b470866"
+  resolved "https://registry.npmjs.org/generate-changelog/-/generate-changelog-1.5.0.tgz#1ec4f88f58539b174d01e1bf6f993b857b470866"
   dependencies:
     bluebird "^3.0.6"
     commander "^2.9.0"
@@ -52,18 +52,18 @@ generate-changelog@^1.5.0:
 
 github-url-from-git@^1.4.0:
   version "1.5.0"
-  resolved "http://sinopia.aws.lan/github-url-from-git/-/github-url-from-git-1.5.0.tgz#f985fedcc0a9aa579dc88d7aff068d55cc6251a0"
+  resolved "https://registry.npmjs.org/github-url-from-git/-/github-url-from-git-1.5.0.tgz#f985fedcc0a9aa579dc88d7aff068d55cc6251a0"
 
 has-flag@^2.0.0:
   version "2.0.0"
-  resolved "http://sinopia.aws.lan/has-flag/-/has-flag-2.0.0.tgz#e8207af1cc7b30d446cc70b734b5e8be18f88d51"
+  resolved "https://registry.npmjs.org/has-flag/-/has-flag-2.0.0.tgz#e8207af1cc7b30d446cc70b734b5e8be18f88d51"
 
 prettier@^1.6.1:
   version "1.7.4"
-  resolved "http://sinopia.aws.lan/prettier/-/prettier-1.7.4.tgz#5e8624ae9363c80f95ec644584ecdf55d74f93fa"
+  resolved "https://registry.npmjs.org/prettier/-/prettier-1.7.4.tgz#5e8624ae9363c80f95ec644584ecdf55d74f93fa"
 
 supports-color@^4.0.0:
   version "4.4.0"
-  resolved "http://sinopia.aws.lan/supports-color/-/supports-color-4.4.0.tgz#883f7ddabc165142b2a61427f3352ded195d1a3e"
+  resolved "https://registry.npmjs.org/supports-color/-/supports-color-4.4.0.tgz#883f7ddabc165142b2a61427f3352ded195d1a3e"
   dependencies:
     has-flag "^2.0.0"
