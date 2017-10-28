@@ -4,9 +4,31 @@ const { translate } = require('deepl-translator');
 const { version } = require('./package.json');
 const chalk = require('chalk');
 
+/**
+ * Reads the text to translate from the standard input.
+ * @return a promise resolved when the standard input
+ * has been read.
+ */
+const read = () => new Promise((resolve, reject) => {
+  let data = '';
+  process.stdin
+    .on('data', (chunk) => data += chunk)
+    .on('end', () => resolve(data.trim()));
+});
+
+/**
+ * Executes the translation of the given text.
+ * @param {*} text the text to translate.
+ */
+const translateText = (text) => {
+  translate(text, program.targetLanguage, program.sourceLanguage)
+    .then(({ translation }) => console.log(chalk.green(translation)))
+    .catch(error => console.error(chalk.bold.red(error.message)))
+};
+
 program
   .version(version)
-  .arguments('<text>')
+  .arguments('[text]')
   .option(
     '-t, --targetLanguage <targetLanguage>',
     'target language code (EN, DE, FR, ES, IT, NL, PL, auto)'
@@ -15,16 +37,13 @@ program
     '-s, --sourceLanguage [sourceLanguage]',
     'source language code (EN, DE, FR, ES, IT, NL, PL, auto)'
   )
-  .action((text, targetLanguage, sourceLanguage) =>
-    translate(text, program.targetLanguage, program.sourceLanguage)
-      .then(({ translation }) => console.log(chalk.green(translation)))
-      .catch(error => console.error(chalk.bold.red(error.message)))
-  )
   .parse(process.argv);
 
 if (program.args.length > 4) {
   console.error(chalk.bold.red('Invalid usage'));
   program.help();
 } else if (!program.args.length) {
-  program.help();
+  read().then(translateText);
+} else {
+  translateText(program.args[0]);
 }
