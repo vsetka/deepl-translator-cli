@@ -1,6 +1,6 @@
 {
   "name": "deepl-translator-cli",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "This module provides command line translation capabilities and is powered by DeepL (https://www.deepl.com/translator)",
   "author": "Vladimir Setka <vsetka@gmail.com>",
   "main": "deepl.js",
