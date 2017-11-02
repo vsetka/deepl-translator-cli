@@ -39,8 +39,7 @@ program
   )
   .parse(process.argv);
 
-if (program.args.length > 4) {
-  console.error(chalk.bold.red('Invalid usage'));
+if (program.rawArgs.length === 2) {
   program.help();
 } else if (!program.args.length) {
   read().then(translateText);
