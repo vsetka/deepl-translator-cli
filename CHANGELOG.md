@@ -1,3 +1,9 @@
+#### 1.1.2 (2018-07-27)
+
+##### Chores
+
+*  update npm registry ([05884276](https://github.com/vsetka/deepl-translator-cli/commit/0588427633fe3cfb5ad0a1a12fa63fae4241e40e))
+
 #### 1.1.1 (2018-07-27)
 
 ##### Chores
