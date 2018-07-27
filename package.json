@@ -1,13 +1,17 @@
 {
   "name": "deepl-translator-cli",
   "version": "1.1.0",
-  "description": "This module provides command line translation capabilities and is powered by DeepL (https://www.deepl.com/translator)",
+  "description":
+    "This module provides command line translation capabilities and is powered by DeepL (https://www.deepl.com/translator)",
   "author": "Vladimir Setka <vsetka@gmail.com>",
   "main": "deepl.js",
   "scripts": {
-    "release:major": "generate-changelog -u https://github.com/vsetka/deepl-translator-cli -M && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && yarn version --new-version major && git push origin && git push origin --tags",
-    "release:minor": "generate-changelog -u https://github.com/vsetka/deepl-translator-cli -m && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && yarn version --new-version minor && git push origin && git push origin --tags",
-    "release:patch": "generate-changelog -u https://github.com/vsetka/deepl-translator-cli -p && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && yarn version --new-version patch && git push origin && git push origin --tags"
+    "release:major":
+      "generate-changelog -u https://github.com/vsetka/deepl-translator-cli -M && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && yarn version --new-version major && git push origin && git push origin --tags",
+    "release:minor":
+      "generate-changelog -u https://github.com/vsetka/deepl-translator-cli -m && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && yarn version --new-version minor && git push origin && git push origin --tags",
+    "release:patch":
+      "generate-changelog -u https://github.com/vsetka/deepl-translator-cli -p && git add CHANGELOG.md && git commit -m 'updated CHANGELOG.md' && yarn version --new-version patch && git push origin && git push origin --tags"
   },
   "bin": {
     "deepl": "./deepl.js"
@@ -34,7 +38,7 @@
   "dependencies": {
     "chalk": "2.1.0",
     "commander": "2.11.0",
-    "deepl-translator": "1.1.0"
+    "deepl-translator": "^1.1.0"
   },
   "devDependencies": {
     "generate-changelog": "^1.5.0",

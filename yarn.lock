@@ -34,9 +34,9 @@ commander@2.11.0, commander@^2.9.0:
   version "2.11.0"
   resolved "https://registry.npmjs.org/commander/-/commander-2.11.0.tgz#157152fd1e7a6c8d98a5b715cf376df928004563"
 
-deepl-translator@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.npmjs.org/deepl-translator/-/deepl-translator-1.1.0.tgz#23aca326eda0dfe846c39028eacf161159ca5627"
+deepl-translator@^1.1.0:
+  version "1.2.1"
+  resolved "http://verdaccio.aws.lan:4873/deepl-translator/-/deepl-translator-1.2.1.tgz#e645c217f987772c23c4c26d647cdd2fbfcc2fa3"
 
 escape-string-regexp@^1.0.5:
   version "1.0.5"

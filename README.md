@@ -1,4 +1,4 @@
-# deepl-translator
+# deepl-translator-cli
 
 [![Known Vulnerabilities](https://snyk.io/test/github/vsetka/deepl-translator-cli/badge.svg)](https://snyk.io/test/github/vsetka/deepl-translator-cli)
 [![npm version](https://badge.fury.io/js/deepl-translator-cli.svg)](https://badge.fury.io/js/deepl-translator-cli)
@@ -6,7 +6,7 @@
 
 This command line tool delivers text translation capabilities to your console, powered by DeepL (https://www.deepl.com/translator).
 
-## Install 
+## Install
 
 ```
 $ yarn global add deepl-translator-cli
