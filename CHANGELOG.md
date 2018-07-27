@@ -1,3 +1,9 @@
+#### 1.1.1 (2018-07-27)
+
+##### Chores
+
+* update dependencies ([4818f162](https://github.com/vsetka/deepl-translator-cli/commit/4818f16265c0d7dea7bbc1a36d1301b4b251d137))
+
 ### 1.1.0 (2017-11-02)
 
 ##### New Features
