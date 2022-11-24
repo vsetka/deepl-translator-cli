@@ -8,26 +8,29 @@ This command line tool delivers text translation capabilities to your console, p
 
 ## Install
 
-```
-$ yarn global add deepl-translator-cli
+```shell
+yarn global add deepl-translator-cli
 ```
 
 ## Usage examples
 
 ```shell
+# Set your API key, or use the -k option to pass your key inline
+export DEEPL_AUTH_KEY='<replace with your key>'
+
 # Translate text into German
-$ deepl translate -t 'DE' 'How do you do?'
+deepl translate -t 'DE' 'How do you do?'
 
 # Pipe text from standard input
-$ echo 'How do you do?' | deepl translate -t 'DE'
+echo 'How do you do?' | deepl translate -t 'DE'
 
 # Detect language
-$ deepl detect 'Wie geht es Ihnen?'
+deepl detect 'Wie geht es Ihnen?'
 
 # For help
-$ deepl -h
-$ deepl translate -h
-$ deepl detect -h
+deepl -h
+deepl translate -h
+deepl detect -h
 ```
 
 ## License
