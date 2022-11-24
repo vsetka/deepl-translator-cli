@@ -1,6 +1,6 @@
 {
   "name": "deepl-translator-cli",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "This module provides command line translation capabilities and is powered by DeepL (https://www.deepl.com/translator)",
   "author": "Vladimir Setka <vsetka@gmail.com>",
   "main": "deepl.js",
@@ -32,12 +32,12 @@
     "cli"
   ],
   "dependencies": {
-    "chalk": "2.1.0",
-    "commander": "2.11.0",
-    "deepl-translator": "^1.1.0"
+    "chalk": "^4.1.2",
+    "commander": "^9.4.1",
+    "deepl-node": "^1.7.2"
   },
   "devDependencies": {
-    "generate-changelog": "^1.5.0",
-    "prettier": "^1.6.1"
+    "generate-changelog": "^1.8.0",
+    "prettier": "^2.8.0"
   }
 }
